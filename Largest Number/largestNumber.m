@@ -10,13 +10,12 @@
 
 @implementation largestNumber
 
-+(NSNumber*)unsorted:(NSArray*) numbers  {
+-(NSNumber*)unsorted:(NSArray*) numbers  {
     
     //NSArray arr = @[ @2, @144, @11, @99, @35 ];
     NSNumber *maxNumber = [numbers valueForKeyPath:@"@max.self"];
     NSLog(@"%@", maxNumber);
-    
-    
+
     return maxNumber;
 }
 

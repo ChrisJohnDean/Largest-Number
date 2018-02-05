@@ -10,6 +10,6 @@
 
 @interface largestNumber : NSObject
 
-+(NSNumber*)unsorted(NSArray*) numbers;
+-(NSNumber*)unsorted:(NSArray*) numbers;
 
 @end
